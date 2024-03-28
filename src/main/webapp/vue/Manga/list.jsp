@@ -49,7 +49,7 @@ h1 {
                 <div class="overlay">
                     <div style="display: flex; flex-direction: column; align-items: center;">
                         <h5 class="card-title"><c:out value="${manga.nom_livre}"></c:out></h5>
-                       <a href="anime?action=detail&id=<c:out value='${manga.id_livre}' />" class="btn text-white btn-lg btn-floating" style="background-color: #1c228a; width: 3em;" role="button">
+                       <a href="manga?action=detail&id=<c:out value='${manga.id_livre}' />" class="btn text-white btn-lg btn-floating" style="background-color: #1c228a; width: 3em;" role="button">
     <i class="fas fa-eye"></i>
 </a>
 
